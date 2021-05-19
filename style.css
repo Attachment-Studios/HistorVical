@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+	--c1: #e7e6e1;
+	--c2: #f7f6e7;
+	--c3: #f2a154;
+	--c4: #314e52;
+	--f1: 128px;
+	--f2: 96px;
+	--f3: 64px;
+	--f4: 48px;
+	--f5: 32px;
+	--f6: 24px;
+	--fp: 24px;
+}
+
+* {
+	background: var(--c1);
+	color: var(--c3);
+	font-family: 'JetBrains Mono';
+	font-size: var(--fp);
+	margin: 0;
+	user-select: none;
+}
+
+h1 {
+	font-size: var(--f1);
+	background: transparent;
+}
+
+h2 {
+	font-size: var(--f2);
+	background: transparent;
+}
+
+h3 {
+	font-size: var(--f3);
+	background: transparent;
+}
+
+h4 {
+	font-size: var(--f4);
+	background: transparent;
+}
+
+h5 {
+	font-size: var(--f5);
+	background: transparent;
+}
+
+h6 {
+	font-size: var(--f6);
+	background: transparent;
+}
+
+center {
+	background: transparent;
+}
+
+a {
+	background: transparent;
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: pointer;
+	color: var(--c3);
+}
+
+a:hover {
+	color: var(--c4);
+}
+
+.nav-menu a {
+	font-size: var(--f6);
+}
+
+.nav-menu a:hover {
+	font-size: var(--f5);
+	color: var(--c2);
+}
+
+.nav-menu a#active {
+	font-size: var(--f5);
+}
+
+.nav-menu {
+	background-color: var(--c4);
+}
+
+.nav-menu #actions {
+	display: inline-flex;
+	background: transparent;
+}
+
+.nav-menu a {
+	margin: 10px;
+	text-decoration: none;
+}
+
+#content h3 {
+	color: var(--c4);
+}
+
+#content {
+	padding: 10px;
+}
